@@ -15,7 +15,7 @@ pipeline {
         stage ('trigger downstream job') {
           steps {
               echo "triggering downstream job..."
-              build 'parameters'
+              build 'parameters_through_git'
               }
              }
         
