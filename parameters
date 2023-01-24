@@ -10,8 +10,10 @@ pipeline {
        stage ('this is second  stage '){
         steps {
           echo "this is the forst command"
-      parameters { string(name: 'DEPLOY_ENV', defaultValue: 'staging', description: '') }
           }
           }
          }
+    parameters { string(name: 'DEPLOY_ENV', defaultValue: 'staging', description: '')   
+      
+    
         }
