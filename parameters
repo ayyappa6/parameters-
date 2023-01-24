@@ -12,6 +12,13 @@ pipeline {
           echo "this is the forst command"
           }
           }
+        stage ('trigger downstream job') {
+          steps {
+              echo "triggering downstream job..."
+              build 'parameters'
+              }
+             }
+        
          }
     parameters { string(name: 'DEPLOY_ENV', defaultValue: 'staging', description: '')  
                   
