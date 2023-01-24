@@ -6,5 +6,13 @@ pipeline {
           echo "this is the forst command"
           }
          }
+       stage ('this is second  stage '){
+        steps {
+          echo "this is the forst command"
+    parameters {
+        string (name: 'plese enter your name'),defalut valuve:'string',description: 'adfgadvjgtjyhdgavu'
+        }
+          }
+         }
         }
        }
