@@ -14,7 +14,7 @@ pipeline {
           }
          }
     parameters { string(name: 'DEPLOY_ENV', defaultValue: 'staging', description: '')  
-                  boolean(name: 'this is bolena parameterr', defaultValye: 'boolean', description: '')
+                  booleanparam(name: 'this is bolena parameterr', defaultValye: 'boolean', description: '')
             }
       
     
