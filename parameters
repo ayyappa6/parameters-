@@ -2,12 +2,12 @@ pipeline {
   agent any 
   
     stages {
-      stage ('this is first stage '){
+      stage ('tony stark '){
         steps {
           echo "this is the forst command"
           }
          }
-       stage ('this is second  stage '){
+       stage ('thor '){
         steps {
           echo "this is the forst command"
           }
