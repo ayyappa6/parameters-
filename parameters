@@ -19,6 +19,7 @@ pipeline {
                   booleanParam(name: 'this is bolena parameterr', defaultValue: 'boolean', description: '')
                   choice(name: 'CHOICES', choices: ['one', 'two', 'three'], description: '')
                   choice(name: 'chouse', choices: ['yes', 'no', 'good'], description: '')
+                   password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'A secret password') 
             }
       
     
