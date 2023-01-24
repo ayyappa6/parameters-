@@ -10,12 +10,11 @@ pipeline {
        stage ('this is second  stage '){
         steps {
           echo "this is the forst command"
- parameters {
+   parameters {
                 string(
                     name: 'branch',
                     defaultValue: 'master',
-                    description: 'Branch of code to be deployed'
-                    )
+                    description: 'Branch of code to be deployed')
                    }
           }
           }
