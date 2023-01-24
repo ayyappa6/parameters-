@@ -9,7 +9,8 @@ pipeline {
        stage ('this is second  stage '){
         steps {
           echo "this is the forst command"
-    Parameters  {
+    parameters  {
+    
         string (name: 'plese enter your name', defaultValue: 'staging', description: 'adfgadvjgtjyhdgavu')
         }
           }
