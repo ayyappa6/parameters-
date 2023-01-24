@@ -10,7 +10,7 @@ pipeline {
         steps {
           echo "this is the forst command"
     parameters {
-        string (name: 'plese enter your name'),defalut valuve:'string',description: 'adfgadvjgtjyhdgavu'
+        string (name: 'plese enter your name'),defalut valuve:'string',description: 'adfgadvjgtjyhdgavu')
         }
           }
          }
